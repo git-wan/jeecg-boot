@@ -1,7 +1,366 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33e5d5de-b3ea-4632-b6ac-6bd8edd42ac6" name="Default Changelist" comment="" />
+    <list default="true" id="33e5d5de-b3ea-4632-b6ac-6bd8edd42ac6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/jeecg-boot.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application-test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/data-mysql.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/schema-mysql.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jeecg/code-template/one/java/${bussiPackage}/${entityPackage}/controller/${entityName}Controller.javai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jeecg/code-template/one/java/${bussiPackage}/${entityPackage}/entity/${entityName}.javai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jeecg/code-template/one/java/${bussiPackage}/${entityPackage}/mapper/${entityName}Mapper.javai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jeecg/code-template/one/java/${bussiPackage}/${entityPackage}/mapper/xml/${entityName}Mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jeecg/code-template/one/java/${bussiPackage}/${entityPackage}/service/I${entityName}Service.javai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jeecg/code-template/one/java/${bussiPackage}/${entityPackage}/service/impl/${entityName}ServiceImpl.javai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jeecg/code-template/one/java/${bussiPackage}/${entityPackage}/vue/${entityName}List.vuei" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jeecg/code-template/one/java/${bussiPackage}/${entityPackage}/vue/modules/${entityName}Modal.vuei" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jeecg/code-template/one/java/${bussiPackage}/${entityPackage}/vue/modules/${entityName}Modal__Style#Drawer.vuei" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jeecg/code-template/one2/java/${bussiPackage}/controller/${entityPackage}/${entityName}Controller.javai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jeecg/code-template/one2/java/${bussiPackage}/entity/${entityPackage}/${entityName}.javai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jeecg/code-template/one2/java/${bussiPackage}/mapper/${entityPackage}/${entityName}Mapper.javai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jeecg/code-template/one2/java/${bussiPackage}/mapper/${entityPackage}/xml/${entityName}Mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jeecg/code-template/one2/java/${bussiPackage}/service/${entityPackage}/I${entityName}Service.javai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jeecg/code-template/one2/java/${bussiPackage}/service/${entityPackage}/impl/${entityName}ServiceImpl.javai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jeecg/code-template/one2/java/${bussiPackage}/vue/${entityPackage}/${entityName}List.vuei" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jeecg/code-template/one2/java/${bussiPackage}/vue/${entityPackage}/modules/${entityName}Modal.vuei" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jeecg/code-template/one2/java/${bussiPackage}/vue/${entityPackage}/modules/${entityName}Modal__Style#Drawer.vuei" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany/java/${bussiPackage}/${entityPackage}/controller/${entityName}Controller.javai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany/java/${bussiPackage}/${entityPackage}/entity/${entityName}.javai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany/java/${bussiPackage}/${entityPackage}/entity/[1-n]Entity.javai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany/java/${bussiPackage}/${entityPackage}/mapper/${entityName}Mapper.javai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany/java/${bussiPackage}/${entityPackage}/mapper/[1-n]Mapper.javai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany/java/${bussiPackage}/${entityPackage}/mapper/xml/${entityName}Mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany/java/${bussiPackage}/${entityPackage}/mapper/xml/[1-n]Mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany/java/${bussiPackage}/${entityPackage}/service/I${entityName}Service.javai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany/java/${bussiPackage}/${entityPackage}/service/[1-n]Service.javai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany/java/${bussiPackage}/${entityPackage}/service/impl/${entityName}ServiceImpl.javai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany/java/${bussiPackage}/${entityPackage}/service/impl/[1-n]ServiceImpl.javai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany/java/${bussiPackage}/${entityPackage}/vo/${entityName}Page.javai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany/java/${bussiPackage}/${entityPackage}/vue/${entityName}List.vuei" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany/java/${bussiPackage}/${entityPackage}/vue/modules/${entityName}Modal.vuei" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany2/java/${bussiPackage}/${entityPackage}/controller/${entityName}Controller.javai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany2/java/${bussiPackage}/${entityPackage}/entity/${entityName}.javai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany2/java/${bussiPackage}/${entityPackage}/entity/[1-n]Entity.javai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany2/java/${bussiPackage}/${entityPackage}/mapper/${entityName}Mapper.javai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany2/java/${bussiPackage}/${entityPackage}/mapper/[1-n]Mapper.javai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany2/java/${bussiPackage}/${entityPackage}/mapper/xml/${entityName}Mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany2/java/${bussiPackage}/${entityPackage}/mapper/xml/[1-n]Mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany2/java/${bussiPackage}/${entityPackage}/service/I${entityName}Service.javai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany2/java/${bussiPackage}/${entityPackage}/service/[1-n]Service.javai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany2/java/${bussiPackage}/${entityPackage}/service/impl/${entityName}ServiceImpl.javai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany2/java/${bussiPackage}/${entityPackage}/service/impl/[1-n]ServiceImpl.javai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany2/java/${bussiPackage}/${entityPackage}/vo/${entityName}Page.javai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany2/java/${bussiPackage}/${entityPackage}/vue/${entityName}List.vuei" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany2/java/${bussiPackage}/${entityPackage}/vue/[1-n]List.vuei" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany2/java/${bussiPackage}/${entityPackage}/vue/modules/${entityName}Modal.vuei" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jeecg/code-template/onetomany2/java/${bussiPackage}/${entityPackage}/vue/modules/[1-n]Modal.vuei" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jeecg/jeecg_config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jeecg/jeecg_database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/JeecgApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/JeecgOneGUI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/JeecgOneToMainUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/common/api/vo/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/common/aspect/AutoLogAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/common/aspect/DictAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/common/aspect/PermissionDataAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/common/aspect/annotation/AutoLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/common/aspect/annotation/Dict.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/common/aspect/annotation/PermissionData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/common/constant/CommonConstant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/common/constant/CommonSendStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/common/constant/DataBaseConstant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/common/exception/JeecgBootException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/common/exception/JeecgBootExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/common/jsonschema/CommonProperty.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/common/jsonschema/JsonSchemaDescrip.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/common/jsonschema/JsonschemaUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/common/jsonschema/validate/NumberProperty.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/common/jsonschema/validate/StringProperty.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/common/system/api/ISysBaseAPI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/common/system/controller/CommonController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/common/system/query/QueryCondition.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/common/system/query/QueryGenerator$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/common/system/query/QueryGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/common/system/query/QueryRuleEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/common/util/DateUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/common/util/IPUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/common/util/MD5Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/common/util/MyClassLoader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/common/util/PasswordUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/common/util/RedisUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/common/util/SpringContextUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/common/util/UUIDGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/common/util/YouBianCodeUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/common/util/oConvertUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/common/util/superSearch/ObjectParseUtil$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/common/util/superSearch/ObjectParseUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/common/util/superSearch/QueryRuleEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/common/util/superSearch/QueryRuleVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/config/AutoPoiConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/config/MybatisPlusConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/config/RedisConfig$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/config/RedisConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/config/ShiroConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/config/Swagger2Config.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/config/WebMvcConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/config/mybatis/MybatisInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ass/controller/AssInfoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ass/controller/AssObjController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ass/controller/AssPlanController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ass/controller/AssResController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ass/controller/AssessController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ass/entity/AssInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ass/entity/AssObj.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ass/entity/AssPlan.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ass/entity/AssResExcel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ass/entity/AssResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ass/entity/AssSco.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ass/entity/Assess.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ass/entity/EntitySale.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ass/entity/PPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ass/entity/PageData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ass/mapper/AssInfoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ass/mapper/AssObjMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ass/mapper/AssPlanMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ass/mapper/AssResMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ass/mapper/AssScoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ass/mapper/AssessMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ass/mapper/SaleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ass/mapper/xml/AssInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ass/mapper/xml/AssObjMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ass/mapper/xml/AssPlanMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ass/mapper/xml/AssScoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ass/mapper/xml/SaleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ass/service/AssInfoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ass/service/AssObjService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ass/service/AssPlanService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ass/service/AssResService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ass/service/AssessService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ass/service/SaleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ass/service/impl/AssInfoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ass/service/impl/AssObjServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ass/service/impl/AssPlanServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ass/service/impl/AssResServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ass/service/impl/AssessServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ass/service/impl/SaleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ass/util/ConnectionUtil$WorkerThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ass/util/ConnectionUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/mock/MockController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/mock/json/area.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/mock/json/getCntrNoCountInfo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/mock/json/graphreport_chart.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/mock/json/permission.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/mock/json/permission_no_page.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/mock/json/role.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/mock/json/service.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/mock/json/sysdatalog.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/mock/json/task_process.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/mock/json/user.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/mock/json/user_info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/mock/json/workplace_activity.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/mock/json/workplace_projects.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/mock/json/workplace_radar.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/mock/json/workplace_teams.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/test/controller/JeecgDemoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/test/controller/JeecgOrderDMainController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/test/controller/JeecgOrderMainController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/test/entity/JeecgDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/test/entity/JeecgOrderCustomer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/test/entity/JeecgOrderMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/test/entity/JeecgOrderTicket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/test/mapper/JeecgDemoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/test/mapper/JeecgOrderCustomerMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/test/mapper/JeecgOrderMainMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/test/mapper/JeecgOrderTicketMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/test/mapper/xml/JeecgDemoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/test/mapper/xml/JeecgOrderCustomerMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/test/mapper/xml/JeecgOrderMainMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/test/mapper/xml/JeecgOrderTicketMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/test/service/IJeecgDemoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/test/service/IJeecgOrderCustomerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/test/service/IJeecgOrderMainService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/test/service/IJeecgOrderTicketService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/test/service/impl/JeecgDemoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/test/service/impl/JeecgOrderCustomerServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/test/service/impl/JeecgOrderMainServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/test/service/impl/JeecgOrderTicketServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/test/vo/JeecgOrderMainPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/message/controller/SysMessageController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/message/controller/SysMessageTemplateController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/message/entity/MsgParams.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/message/entity/SysMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/message/entity/SysMessageTemplate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/message/handle/ISendMsgHandle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/message/handle/enums/SendMsgStatusEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/message/handle/enums/SendMsgTypeEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/message/handle/impl/EmailSendMsgHandle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/message/handle/impl/SmsSendMsgHandle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/message/handle/impl/WxSendMsgHandle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/message/job/SendMsgJob.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/message/mapper/SysMessageMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/message/mapper/SysMessageTemplateMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/message/mapper/xml/SysMessageMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/message/mapper/xml/SysMessageTemplateMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/message/service/ISysMessageService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/message/service/ISysMessageTemplateService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/message/service/impl/SysMessageServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/message/service/impl/SysMessageTemplateServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/message/util/PushMsgUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/monitor/controller/RedisController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/monitor/domain/RedisInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/monitor/exception/RedisConnectException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/monitor/service/RedisService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/monitor/service/impl/RedisServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ngalain/aop/LogRecordAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ngalain/controller/NgAlainController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ngalain/mapper/NgAlainMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ngalain/mapper/xml/NgAlainMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ngalain/service/NgAlainService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ngalain/service/impl/NgAlainServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/controller/OnlCgreportAPI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/controller/OnlCgreportHeadController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/controller/OnlCgreportItemController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/controller/OnlCgreportParamController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/def/CgReportConstant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/entity/OnlCgreportHead.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/entity/OnlCgreportItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/entity/OnlCgreportParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/mapper/OnlCgreportHeadMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/mapper/OnlCgreportItemMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/mapper/OnlCgreportParamMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/mapper/xml/OnlCgreportHeadMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/mapper/xml/OnlCgreportItemMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/mapper/xml/OnlCgreportParamMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/model/OnlCgreportModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/service/CgReportExcelServiceI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/service/IOnlCgreportHeadService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/service/IOnlCgreportItemService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/service/IOnlCgreportParamService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/service/impl/CgReportExcelServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/service/impl/OnlCgreportHeadServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/service/impl/OnlCgreportItemServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/service/impl/OnlCgreportParamServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/util/BrowserType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/util/BrowserUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/util/CgReportQueryParamUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/util/SqlUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/quartz/controller/QuartzJobController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/quartz/entity/QuartzJob.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/quartz/job/SampleJob.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/quartz/job/SampleParamJob.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/quartz/mapper/QuartzJobMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/quartz/mapper/xml/QuartzJobMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/quartz/service/IQuartzJobService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/quartz/service/impl/QuartzJobServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/shiro/authc/JwtToken.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/shiro/authc/MyRealm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/shiro/authc/aop/JwtFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/shiro/authc/aop/ResourceCheckFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/shiro/authc/util/JwtUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/shiro/vo/DefContants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/shiro/vo/ResponseBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/shiro/vo/UserBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/shiro/web/TestWebController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/controller/DuplicateCheckController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/controller/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/controller/SysAnnouncementController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/controller/SysDataLogController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/controller/SysDepartController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/controller/SysDictController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/controller/SysDictItemController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/controller/SysLogController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/controller/SysPermissionController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/controller/SysRoleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/controller/SysUserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/entity/SysAnnouncement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/entity/SysDataLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/entity/SysDepart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/entity/SysDict.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/entity/SysDictItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/entity/SysLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/entity/SysPermission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/entity/SysPermissionDataRule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/entity/SysRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/entity/SysRolePermission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/entity/SysUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/entity/SysUserDepart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/entity/SysUserRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/SysAnnouncementMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/SysDataLogMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/SysDepartMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/SysDictItemMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/SysDictMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/SysLogMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/SysPermissionDataRuleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/SysPermissionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/SysRoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/SysRolePermissionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/SysUserDepartMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/SysUserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/SysUserRoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/xml/SysAnnouncementMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/xml/SysDataLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/xml/SysDepartMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/xml/SysDictItemMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/xml/SysDictMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/xml/SysLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/xml/SysPermissionDataRuleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/xml/SysPermissionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/xml/SysUserDepartMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/xml/SysUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/model/DepartIdModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/model/DuplicateCheckVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/model/SysDepartTreeModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/model/SysDictTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/model/SysLoginModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/model/SysPermissionTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/model/SysUserCacheInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/model/SysUserDepartsVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/model/TreeModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/model/TreeSelectModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/ISysAnnouncementService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/ISysDataLogService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/ISysDepartService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/ISysDictItemService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/ISysDictService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/ISysLogService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/ISysPermissionDataRuleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/ISysPermissionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/ISysRolePermissionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/ISysRoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/ISysUserDepartService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/ISysUserRoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/ISysUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/impl/AutoPoiDictService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/impl/SysAnnouncementServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/impl/SysBaseAPI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/impl/SysDataLogServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/impl/SysDepartServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/impl/SysDictItemServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/impl/SysDictServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/impl/SysLogServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/impl/SysPermissionDataRuleImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/impl/SysPermissionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/impl/SysRolePermissionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/impl/SysRoleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/impl/SysUserDepartServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/impl/SysUserRoleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/impl/SysUserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/util/FindsDepartsChildrenUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/util/JeecgDataAutorUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/util/PermissionDataUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/vo/SysDictPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/demo1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/view/userlist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/demo3.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/org/jeecg/SampleTest.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -221,6 +580,13 @@
       <select />
     </treeState>
   </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="413" />
     <option name="y" value="25" />
@@ -311,12 +677,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557035065045</updated>
-      <workItem from="1557035068882" duration="67446000" />
+      <workItem from="1557035068882" duration="67703000" />
     </task>
+    <task id="LOCAL-00001" summary="5月">
+      <created>1557641534597</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1557641534597</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67446000" />
+    <option name="totallyTimeSpent" value="67703000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="331" y="20" width="1188" height="784" extended-state="0" />
@@ -393,6 +767,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="5月" />
+    <option name="LAST_COMMIT_MESSAGE" value="5月" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/org/jeecg/modules/demo/test/controller/JeecgDemoController.java">
