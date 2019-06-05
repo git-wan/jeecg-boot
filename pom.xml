@@ -43,6 +43,25 @@
     </properties>
     
 	<dependencies>
+
+		<!-- //httpclient的接口基本都在这儿 -->
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>4.5.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>joda-time</groupId>
+			<artifactId>joda-time</artifactId>
+			<version>2.4</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.oracle</groupId>
+			<artifactId>ojdbc6</artifactId>
+			<version>11.2.0.3</version>
+		</dependency>
 		<!--集成springmvc框架并实现自动配置 -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -65,11 +84,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
-	    <!-- <dependency>
+		<!--热部署-->
+	     <dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
 			<optional>true</optional>
-		</dependency> -->
+		</dependency>
 		
 		<!-- commons -->
 		<dependency>

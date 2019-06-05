@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.jeecg.modules.ws.ass.mapper.AssObjMapper">
+
+	<!-- 根据用户名查询 -->
+<!--	<select id="getDemoByName" resultType="org.jeecg.modules.ass.entity.JeecgDemo">
+		select * from  demo  where name = #{name}
+	</select>-->
+
+    <select id="getObjGroups" resultType="string">
+		select distinct assgroup from ass_obj
+	</select>
+
+	<select id="getObjs" resultType="assobj" parameterType="string">
+		select *  from  ass_obj  where  assgroup = #{assgroup}
+	</select>
+</mapper>

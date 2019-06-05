@@ -88,12 +88,18 @@ spring:
           username: root
           password: 123
           driver-class-name: com.mysql.jdbc.Driver
+
           # 多数据源配置
-          multi-datasource1:
-          url1: jdbc:oracle:thin:@166.100.0.26:1521:PARK
-          username1: kyle
-          password1: kyle
-          driver-class-name1: oracle.jdbc.driver.OracleDriver
+        multi-datasource1:
+          url: jdbc:oracle:thin:@166.100.0.26:1521:PARK
+          username: kyle
+          password: kyle
+          driver-class-name: oracle.jdbc.driver.OracleDriver
+        multi-datasource2:
+          url: jdbc:mysql://127.0.0.1:3306/jeecgboot?characterEncoding=UTF-8&useUnicode=true&useSSL=false
+          username: root
+          password: 123
+          driver-class-name: com.mysql.jdbc.Driver
   #redis 配置
   redis:
     database: 0
@@ -109,8 +115,8 @@ spring:
     port: 6379
 #mybatis plus 设置
 mybatis-plus:
-  mapper-locations: classpath*:org/jeecg/modules/**/xml/*Mapper.xml
-  type-aliases-package: org.jeecg.modules.ass.entity
+  mapper-locations: classpath*:org/jeecg/modules/**/xml/*Mapper.xml,classpath*:org/jeecg/modules/ws/**/mapper/xml/*Mapper.xml
+  type-aliases-package: org.jeecg.modules.ws.ass.entity,org.jeecg.modules.ws.util,org.jeecg.modules.ws.sale.entity,org.jeecg.modules.ws.define.entity,org.jeecg.modules.ws.patrol.entity
 
 #jeecg专用配置
 jeecg :
