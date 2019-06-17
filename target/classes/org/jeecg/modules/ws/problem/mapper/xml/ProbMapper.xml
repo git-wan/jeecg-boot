@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.jeecg.modules.ws.problem.mapper.ProbMapper">
+
+	<!-- 根据用户名查询 -->
+<!--	<select id="getDemoByName" resultType="org.jeecg.modules.ass.entity.JeecgDemo">
+		select * from  demo  where name = #{name}
+	</select>-->
+	<update id="upStatus" parameterType="string">
+		    update ws_problem set problemstatus = '已解决' where id = #{id}
+	</update>
+
+
+
+
+</mapper>

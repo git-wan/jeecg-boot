@@ -22,7 +22,7 @@ public class TsController {
         Result<List<PageData>> result = new Result<>();
         List<PageData> plannames = tsService.getTable(entityname);
         if (plannames == null) {
-            result.error500("未找到对应实体");
+            result.error500("查询表空间异常，未找到对应实体");
         } else {
             result.setResult(plannames);
             result.setSuccess(true);

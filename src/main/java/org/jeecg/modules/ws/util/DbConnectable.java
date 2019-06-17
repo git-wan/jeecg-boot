@@ -15,15 +15,16 @@ public class DbConnectable {
 				//建立连接
 			conn = DriverManager.getConnection(url,user,password);				
 		}catch (Exception e) {
-				e.printStackTrace();
-			//System.err.println("连接失败");
+//				e.printStackTrace();
+			System.err.println("----------------------------DB连接失败-------------------------------");
 				return false;
 			}finally {
 			if (conn != null) {
 				try {
 					conn.close();
 				} catch (SQLException e) {
-					e.printStackTrace();
+//					e.printStackTrace();
+					System.err.println("----------------------------con关闭异常-------------------------------");
 					return false;
 				}
 			}
@@ -63,6 +64,7 @@ public class DbConnectable {
             }
 		}catch (Exception e) {
 				//e.printStackTrace();
+			System.err.println("----------------------------查询表空间，DB连接失败-------------------------------");
 				return null;
 			}finally {
 			if (conn != null) {
@@ -76,6 +78,7 @@ public class DbConnectable {
 					}
 				} catch (SQLException e) {
 					//e.printStackTrace();
+					System.err.println("----------------------------con关闭异常-------------------------------");
 					return null;
 				}
 			}

@@ -15,7 +15,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 @Service
 public class WebServiceImpl implements WebService {
-@Autowired
+    @Autowired
     private EntPropMapper entPropMapper;
 
 
@@ -31,21 +31,26 @@ public class WebServiceImpl implements WebService {
                 try {
                     response = client.execute(post);
                 } catch (Exception e) {
-                    e.printStackTrace();
+             /*       e.printStackTrace();
                     PageData excepion = new  PageData();
                     excepion.put("STATUS", pageData.getString("PROPERTYVALUE")+"地址异常");
                     list.clear();
                     list.add(excepion);
-                    return list;
-
+                    return list;*/
+                    System.err.println("----------------------------"+pageData.getString("propertyvalue")+"地址异常-------------------------------");
                 }
-                int code=response.getStatusLine().getStatusCode();
-                if(code==200||code==302){
-                    pageData.put("propertychar", code);
-                    pageData.put("status", "success");
+                if(response==null){
+                    pageData.put("propertychar", "地址异常");
+                    pageData.put("status", "error");
                 }else{
-                    pageData.put("propertychar", code);
-                    pageData.put("status", "failed");
+                    int code=response.getStatusLine().getStatusCode();
+                    if(code==200||code==302){
+                        pageData.put("propertychar", code);
+                        pageData.put("status", "success");
+                    }else{
+                        pageData.put("propertychar", code);
+                        pageData.put("status", "error");
+                    }
                 }
             }
             return list;

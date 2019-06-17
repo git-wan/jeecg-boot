@@ -24,10 +24,9 @@ public class IpServiceImpl implements IpService {
                     pageData.put("status", "success");
                 }else{
                     pageData.put("propertychar", "TimeOut");
-                    pageData.put("status", "failed");
+                    pageData.put("status", "error");
 
             }
-
         }
         return list;
     }

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.jeecg.modules.ws.ass.mapper.AssInfoMapper">
+
+	<!-- 根据用户名查询 -->
+<!--	<select id="getDemoByName" resultType="org.jeecg.modules.ass.entity.JeecgDemo">
+		select * from  demo  where name = #{name}
+	</select>-->
+	<select id="getAssTypes" resultType="string">
+		select distinct asstype from ass_info
+	</select>
+
+	<select id="getAssInfos" parameterType="string" resultType="pagedata">
+		select *  from ass_info  where asstype = #{asstype}
+	</select>
+
+	<select id="getGroupName" parameterType="string" resultType="string">
+		select groupname from ass_info where id = #{assinfoid}
+	</select>
+
+	<select id="getGroups" parameterType="string" resultType="pagedata">
+		select groupname , scoregroup from  ass_info  where asstype =#{asstype}
+	</select>
+</mapper>
