@@ -3,6 +3,7 @@ package org.jeecg.modules.ws.define.mapper;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.jeecg.modules.ws.define.entity.EntProp;
 import org.jeecg.modules.ws.define.entity.Entity;
+import org.jeecg.modules.ws.patrol.entity.EntPropStatus;
 import org.jeecg.modules.ws.util.PageData;
 import org.springframework.data.repository.query.Param;
 
@@ -26,15 +27,15 @@ public interface EntPropMapper extends BaseMapper<EntProp> {
 
     List<PageData> getGroups(String asstype);
 
-    List<PageData> getIps();
+    List<EntPropStatus> getIps();
 
-    List<PageData> getWebs();
+    List<EntPropStatus> getWebs();
 
     List<PageData> tableSpace(String entityname);
 
-    List<PageData> dbPatorl();
+    List<EntPropStatus> dbPatorl();
 
-    List<PageData> dbList(String entityname);
+    List<EntPropStatus> dbList(String entityname);
 
     List<PageData> getTables();
 }

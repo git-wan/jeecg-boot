@@ -38,12 +38,13 @@ public class IpConnectable {
 	}
 	
 	public static boolean ping(String ipAddress){
-		int timeOut =2000;
+		int timeOut =1000;
 	    try {
 			return	InetAddress.getByName(ipAddress).isReachable(timeOut);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
+			/*e.printStackTrace();*/
+			System.err.println("----------------------------"+ipAddress+"ip地址异常-------------------------------");
 			return false;
 		} 
 	}

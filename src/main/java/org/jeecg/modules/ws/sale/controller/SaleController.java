@@ -72,13 +72,13 @@ public class SaleController {
         //Step.2 AutoPoi 导出Excel
         ModelAndView mv = new ModelAndView(new JeecgEntityExcelView());
         List<EntitySale> pageList = saleService.getSale(SALEDATE);
-
+        String sdate = DateUtils.date2Str(SALEDATE,DateUtils.yyyyMMdd);
         //导出文件名称
-        mv.addObject(NormalExcelConstants.FILE_NAME, "Excel导出文件名字");
+        mv.addObject(NormalExcelConstants.FILE_NAME, sdate+"销售");
         //注解对象Class
         mv.addObject(NormalExcelConstants.CLASS, EntitySale.class);
         //自定义表格参数
-        mv.addObject(NormalExcelConstants.PARAMS, new ExportParams("自定义导出Excel模板内容标题", "导出人:Jeecg", "导出信息"));
+        mv.addObject(NormalExcelConstants.PARAMS, new ExportParams(sdate+"各实体销售", "导出人:***", "导出信息"));
         //导出数据列表
         mv.addObject(NormalExcelConstants.DATA_LIST, pageList);
         return mv;

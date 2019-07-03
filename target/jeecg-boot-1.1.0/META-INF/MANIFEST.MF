@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Implementation-Version: 1.1.0
+Built-By: 12045
+Implementation-Vendor-Id: org.jeecgframework.boot
+Created-By: IntelliJ IDEA
+Build-Jdk: 1.8.0_202
+Main-Class: ${start-class}
+

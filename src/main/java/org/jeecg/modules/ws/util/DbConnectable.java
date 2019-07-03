@@ -15,7 +15,8 @@ public class DbConnectable {
 				//建立连接
 			conn = DriverManager.getConnection(url,user,password);				
 		}catch (Exception e) {
-//				e.printStackTrace();
+			/*e.printStackTrace();*/
+			System.err.println(user+password+host+dbname);
 			System.err.println("----------------------------DB连接失败-------------------------------");
 				return false;
 			}finally {

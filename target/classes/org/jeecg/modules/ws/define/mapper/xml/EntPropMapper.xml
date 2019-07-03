@@ -6,11 +6,11 @@
 <!--	<select id="getDemoByName" resultType="org.jeecg.modules.ass.entity.JeecgDemo">
 		select * from  demo  where name = #{name}
 	</select>-->
-	<select id="getIps" resultType="pagedata" >
+	<select id="getIps" resultType="EntPropStatus" >
 		select * from ws_entityproperty where propertyno = 'IP'
 	</select>
 
-	<select id="getWebs" resultType="pagedata" >
+	<select id="getWebs" resultType="EntPropStatus" >
 		select * from ws_entityproperty where propertyno = 'WEB'
 	</select>
 
@@ -18,11 +18,11 @@
 		select * from ws_entityproperty where entityname = #{entityname}
 	</select>
 
-	<select id="dbPatorl" resultType="pagedata" >
+	<select id="dbPatorl" resultType="EntPropStatus" >
 		select * from ws_entityproperty where propertyno = 'DBCONNECT'
 	</select>
 
-	<select id="dbList" resultType="pagedata" >
+	<select id="dbList" resultType="EntPropStatus" >
 		select * from ws_entityproperty where entityname = #{entityname}
 	</select>
 
