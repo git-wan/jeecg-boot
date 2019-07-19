@@ -5,18 +5,18 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.ServletComponentScan;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
-
+import org.springframework.scheduling.annotation.EnableScheduling;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 
 @SpringBootApplication
-@ServletComponentScan
-public class DemoApplication extends SpringBootServletInitializer {
+@EnableSwagger2
+@EnableScheduling
+public class DemoApplication {
     public static void main(String[] args) {
+        System.setProperty("spring.devtools.restart.enabled","false");
         SpringApplication.run(DemoApplication.class, args);
     }
 
-    @Override
-    protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-        // 注意这里要指向原先用main方法执行的Application启动类
-        return builder.sources(DemoApplication.class);
-    }}
+
+}

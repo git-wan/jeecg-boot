@@ -16,6 +16,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.apache.shiro.authz.annotation.RequiresRoles;
 import org.jeecg.common.api.vo.Result;
+import org.jeecg.common.constant.CommonConstant;
 import org.jeecg.common.system.query.QueryGenerator;
 import org.jeecg.common.util.PasswordUtil;
 import org.jeecg.common.util.oConvertUtils;
@@ -34,11 +35,7 @@ import org.jeecgframework.poi.excel.entity.ExportParams;
 import org.jeecgframework.poi.excel.entity.ImportParams;
 import org.jeecgframework.poi.excel.view.JeecgEntityExcelView;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
@@ -504,4 +501,68 @@ public class SysUserController {
         }
         return Result.ok("文件导入失败！");
     }
+
+
+    /**
+     * 用户注册接口
+     *
+     * @param jsonObject
+     * @param user
+     * @return
+     */
+    @PostMapping("/register")
+    public Result<JSONObject> userRegister(@RequestBody JSONObject jsonObject, SysUser user) {
+        Result<JSONObject> result = new Result<JSONObject>();
+        String phone = jsonObject.getString("phone");
+        String smscode = jsonObject.getString("smscode");
+   /*     Object code = redisUtil.get(phone);*/
+        String username = jsonObject.getString("username");
+        String password = jsonObject.getString("password");
+        String email = jsonObject.getString("email");
+        SysUser sysUser1 = sysUserService.getUserByName(username);
+        if (sysUser1 != null) {
+            result.setMessage("用户名已注册");
+            result.setSuccess(false);
+            return result;
+        }
+        SysUser sysUser2 = sysUserService.getUserByPhone(phone);
+
+        if (sysUser2 != null) {
+            result.setMessage("该手机号已注册");
+            result.setSuccess(false);
+            return result;
+        }
+        SysUser sysUser3 = sysUserService.getUserByEmail(email);
+        if (sysUser3 != null) {
+            result.setMessage("邮箱已被注册");
+            result.setSuccess(false);
+            return result;
+        }
+
+    /*    if (!smscode.equals(code)) {
+            result.setMessage("手机验证码错误");
+            result.setSuccess(false);
+            return result;
+        }*/
+
+        try {
+            user.setCreateTime(new Date());// 设置创建时间
+            String salt = oConvertUtils.randomGen(8);
+            String passwordEncode = PasswordUtil.encrypt(username, password, salt);
+            user.setSalt(salt);
+            user.setUsername(username);
+            user.setPassword(passwordEncode);
+            user.setEmail(email);
+            user.setPhone(phone);
+            user.setStatus(1);
+            user.setDelFlag(CommonConstant.DEL_FLAG_0.toString());
+            user.setActivitiSync(CommonConstant.ACT_SYNC_1);
+            sysUserService.save(user);
+            result.success("注册成功");
+        } catch (Exception e) {
+            result.error500("注册失败");
+        }
+        return result;
+    }
+
 }

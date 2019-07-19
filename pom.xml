@@ -221,14 +221,24 @@
 		</dependency>
 		  
 	</dependencies>
-
-	<build>
+<build>
+	<plugins>
+	<plugin>
+		<groupId>org.apache.maven.plugins</groupId>
+		<artifactId>maven-surefire-plugin</artifactId>
+		<configuration>
+			<skipTests>true</skipTests>
+		</configuration>
+	</plugin>
+	</plugins>
+</build>
+	<!--<build>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			<!-- 指定JDK编译版本 -->
+			&lt;!&ndash; 指定JDK编译版本 &ndash;&gt;
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -238,7 +248,7 @@
                     <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
-            <!-- 打包跳过测试 -->
+            &lt;!&ndash; 打包跳过测试 &ndash;&gt;
             <plugin>
 		        <groupId>org.apache.maven.plugins</groupId>
 		        <artifactId>maven-surefire-plugin</artifactId>
@@ -261,6 +271,6 @@
 				</includes>
 			</resource>
 		</resources>
-	</build>
+	</build>-->
 
 </project>

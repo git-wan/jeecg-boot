@@ -7,4 +7,14 @@
 		select * from  sys_user  where username = #{username}
 	</select>
 
+	<!-- 根据手机号查询 -->
+	<select id="getUserByPhone" resultType="org.jeecg.modules.system.entity.SysUser">
+	   select * from  sys_user  where phone = #{phone} and del_flag = '0'
+   </select>
+
+	<!-- 根据邮箱查询用户信息 -->
+	<select id="getUserByEmail" resultType="org.jeecg.modules.system.entity.SysUser">
+	select * from  sys_user  where email = #{email} and del_flag = '0'
+	</select>
+
 </mapper>

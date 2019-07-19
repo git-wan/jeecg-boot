@@ -100,11 +100,11 @@ spring:
           username: kyle
           password: kyle
           driver-class-name: oracle.jdbc.driver.OracleDriver
-        multi-datasource2:
-          url: jdbc:mysql://127.0.0.1:3306/jeecgboot?characterEncoding=UTF-8&useUnicode=true&useSSL=false
-          username: root
-          password: 123
-          driver-class-name: com.mysql.jdbc.Driver
+#        multi-datasource2:
+#          url: jdbc:mysql://127.0.0.1:3306/jeecgboot?characterEncoding=UTF-8&useUnicode=true&useSSL=false
+#          username: root
+#          password: 123
+#          driver-class-name: com.mysql.jdbc.Driver
   #redis 配置
   redis:
     database: 0

@@ -46,4 +46,9 @@ public interface ISysUserService extends IService<SysUser> {
 	 * @return
 	 */
 	public SysUserCacheInfo getCacheUser(String username);
+
+    SysUser getUserByPhone(String phone);
+
+	SysUser getUserByEmail(String email);
+
 }

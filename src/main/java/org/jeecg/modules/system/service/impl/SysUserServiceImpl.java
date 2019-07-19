@@ -102,4 +102,16 @@ public class SysUserServiceImpl extends ServiceImpl<SysUserMapper, SysUser> impl
 		return info;
 	}
 
+	@Override
+	public SysUser getUserByPhone(String phone) {
+		return userMapper.getUserByPhone(phone);
+	}
+
+	@Override
+	public SysUser getUserByEmail(String email) {
+		return userMapper.getUserByEmail(email);
+	}
+
+
+
 }

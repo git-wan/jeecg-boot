@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: org.jeecg.SampleTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.447 s <<< FAILURE! - in org.jeecg.SampleTest
+initializationError(org.jeecg.SampleTest)  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: Found multiple @SpringBootConfiguration annotated classes [Generic bean: class [org.jeecg.DemoApplication]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\IdeaProjects\jeecg-boot\target\classes\org\jeecg\DemoApplication.class], Generic bean: class [org.jeecg.JeecgApplication]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\IdeaProjects\jeecg-boot\target\classes\org\jeecg\JeecgApplication.class]]
+

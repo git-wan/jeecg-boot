@@ -63,6 +63,15 @@ public class SysAnnouncement implements Serializable {
     @Excel(name = "优先级", width = 15)
     @Dict(dicCode = "priority")
     private java.lang.String priority;
+
+    /*
+    * 消息类型 1 通知  2 系统消息
+    * */
+    @Excel(name="消息类型",width = 15)
+    @Dict(dicCode = "msg_category")
+    private java.lang.String msgCategory;
+
+
     /**
      * 通告对象类型（USER:指定用户，ALL:全体用户）
      */

@@ -18,5 +18,10 @@ public interface SysUserMapper extends BaseMapper<SysUser> {
 	 * @param username
 	 * @return
 	 */
-	public SysUser getUserByName(@Param("username") String username);
+	SysUser getUserByName(@Param("username") String username);
+
+	SysUser getUserByPhone(@Param("phone") String phone);
+
+	SysUser getUserByEmail(@Param("email") String email);
+
 }

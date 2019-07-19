@@ -16,6 +16,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.Date;
 import java.util.List;
+
 @Service
 public class WebServiceImpl implements WebService {
     @Autowired
@@ -27,40 +28,40 @@ public class WebServiceImpl implements WebService {
     @Override
     public List<EntPropStatus> webStatus() {
         Date indate = new Date();
-            List<EntPropStatus> list= webPatorl();
-            HttpClient client = HttpClientBuilder.create().build();
-            for (EntPropStatus pageData : list) {
-                HttpPost post = new HttpPost(pageData.getPropertyvalue());
-                HttpResponse response = null;
-                try {
-                    response = client.execute(post);
-                } catch (Exception e) {
+        List<EntPropStatus> list = webPatorl();
+        HttpClient client = HttpClientBuilder.create().build();
+        for (EntPropStatus pageData : list) {
+            HttpPost post = new HttpPost(pageData.getPropertyvalue());
+            HttpResponse response = null;
+            try {
+                response = client.execute(post);
+            } catch (Exception e) {
              /*       e.printStackTrace();
                     PageData excepion = new  PageData();
                     excepion.put("STATUS", pageData.getString("PROPERTYVALUE")+"地址异常");
                     list.clear();
                     list.add(excepion);
                     return list;*/
-                    System.err.println("----------------------------"+pageData.getPropertyvalue()+"地址异常-------------------------------");
-                }
-                if(response==null){
-                    pageData.setPropertychar("地址异常");
-                    pageData.setStatus("error");
-                }else{
-                    int code=response.getStatusLine().getStatusCode();
-                    if(code==200||code==302){
-                        pageData.setPropertychar(""+code);
-                        pageData.setStatus("success");
-                    }else{
-                        pageData.setPropertychar(""+code);
-                        pageData.setStatus("error");
-                    }
-                }
-                pageData.setIndate(indate);
-                pageData.setId(null);
-                entPropStatusMapper.insert(pageData);
+                System.err.println("----------------------------" + pageData.getPropertyvalue() + "地址异常-------------------------------");
             }
-            return list;
+            if (response == null) {
+                pageData.setPropertychar("地址异常");
+                pageData.setStatus("error");
+            } else {
+                int code = response.getStatusLine().getStatusCode();
+                if (code == 200 || code == 302) {
+                    pageData.setPropertychar("" + code);
+                    pageData.setStatus("success");
+                } else {
+                    pageData.setPropertychar("" + code);
+                    pageData.setStatus("error");
+                }
+            }
+            pageData.setIndate(indate);
+            pageData.setId(null);
+            entPropStatusMapper.insert(pageData);
+        }
+        return list;
     }
 
     @Override

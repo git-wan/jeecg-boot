@@ -46,6 +46,8 @@ public class ShiroConfig {
 		filterChainDefinitionMap.put("/auth/2step-code", "anon");//登录验证码
 		filterChainDefinitionMap.put("/test/jeecgDemo/**", "anon"); //测试接口
 		filterChainDefinitionMap.put("/test/jeecgOrderMain/**", "anon"); //测试接口
+		filterChainDefinitionMap.put("/sys/user/checkOnlyUser", "anon");//校验用户是否存在
+		filterChainDefinitionMap.put("/sys/user/register", "anon");//用户注册
 		filterChainDefinitionMap.put("/**/exportXls", "anon"); //导出接口
 		filterChainDefinitionMap.put("/**/importExcel", "anon"); //导入接口
 		filterChainDefinitionMap.put("/sys/common/view/**", "anon");//图片预览不限制token

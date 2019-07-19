@@ -88,8 +88,8 @@ public class PasswordUtil {
 			Cipher cipher = Cipher.getInstance(ALGORITHM);
 
 			cipher.init(Cipher.ENCRYPT_MODE, key, parameterSpec);
-
-			encipheredData = cipher.doFinal(plaintext.getBytes());
+			/*byte[] e = plaintext.getBytes("");*/
+			encipheredData = cipher.doFinal(plaintext.getBytes("utf-8"));
 		} catch (Exception e) {
 		}
 		return bytesToHexString(encipheredData);
