@@ -6,165 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33e5d5de-b3ea-4632-b6ac-6bd8edd42ac6" name="Default Changelist" comment="7月19">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/jeecg/common/system/vo/LoginUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/jeecg/modules/system/controller/SysAnnouncementSendController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/jeecg/modules/system/entity/SysAnnouncementSend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/jeecg/modules/system/mapper/SysAnnouncementSendMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/jeecg/modules/system/mapper/xml/SysAnnouncementSendMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/jeecg/modules/system/model/AnnouncementSendModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/jeecg/modules/system/service/ISysAnnouncementSendService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/jeecg/modules/system/service/impl/SysAnnouncementSendServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/common/system/vo/LoginUser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/controller/SysAnnouncementSendController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/entity/SysAnnouncementSend.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/SysAnnouncementSendMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/model/AnnouncementSendModel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/ISysAnnouncementSendService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/impl/SysAnnouncementSendServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jeecg-boot-1.1.0.war" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jeecg-boot-1.1.0.war.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/common/system/vo/LoginUser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/config/ApplicationStartQuartzJobListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/system/controller/SysAnnouncementSendController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/system/entity/SysAnnouncementSend.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/system/mapper/SysAnnouncementSendMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/system/mapper/xml/SysAnnouncementSendMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/system/model/AnnouncementSendModel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/system/service/ISysAnnouncementSendService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/system/service/impl/SysAnnouncementSendServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/ws/patrol/entity/EntPropStatus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/ws/patrol/mapper/EntPropStatusMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/lib/spring-boot-configuration-processor-2.0.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.jeecg.SampleTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.jeecg.SampleTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/ojdbc14.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/ojdbc14.xml" afterDir="false" />
+    <list default="true" id="33e5d5de-b3ea-4632-b6ac-6bd8edd42ac6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/jeecg/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jeecg/DemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/jeecg/JeecgApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jeecg/JeecgApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/jeecg/common/constant/CommonConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jeecg/common/constant/CommonConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/jeecg/common/util/PasswordUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jeecg/common/util/PasswordUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/jeecg/config/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jeecg/config/ShiroConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/jeecg/modules/shiro/authc/MyRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jeecg/modules/shiro/authc/MyRealm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/jeecg/modules/system/controller/SysAnnouncementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jeecg/modules/system/controller/SysAnnouncementController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/jeecg/modules/system/controller/SysUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jeecg/modules/system/controller/SysUserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/jeecg/modules/system/entity/SysAnnouncement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jeecg/modules/system/entity/SysAnnouncement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/jeecg/modules/system/entity/SysUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jeecg/modules/system/entity/SysUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/jeecg/modules/system/mapper/SysAnnouncementMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jeecg/modules/system/mapper/SysAnnouncementMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/jeecg/modules/system/mapper/SysUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jeecg/modules/system/mapper/SysUserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/jeecg/modules/system/mapper/xml/SysAnnouncementMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jeecg/modules/system/mapper/xml/SysAnnouncementMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/jeecg/modules/system/mapper/xml/SysUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jeecg/modules/system/mapper/xml/SysUserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/jeecg/modules/system/service/ISysAnnouncementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jeecg/modules/system/service/ISysAnnouncementService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/jeecg/modules/system/service/ISysUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jeecg/modules/system/service/ISysUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/jeecg/modules/system/service/impl/SysAnnouncementServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jeecg/modules/system/service/impl/SysAnnouncementServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/jeecg/modules/system/service/impl/SysUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jeecg/modules/system/service/impl/SysUserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/jeecg/modules/ws/patrol/service/impl/WebServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jeecg/modules/ws/patrol/service/impl/WebServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/DemoApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/jeecg/DemoApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/JeecgApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/jeecg/JeecgApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/common/constant/CommonConstant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/jeecg/common/constant/CommonConstant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/common/util/PasswordUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/jeecg/common/util/PasswordUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/config/ShiroConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/jeecg/config/ShiroConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/mock/json/area.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/mock/json/getCntrNoCountInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/mock/json/graphreport_chart.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/mock/json/permission.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/mock/json/permission_no_page.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/mock/json/role.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/mock/json/service.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/mock/json/sysdatalog.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/mock/json/task_process.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/mock/json/user.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/mock/json/user_info.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/mock/json/workplace_activity.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/mock/json/workplace_projects.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/mock/json/workplace_radar.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/mock/json/workplace_teams.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/test/mapper/xml/JeecgDemoMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/test/mapper/xml/JeecgOrderCustomerMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/test/mapper/xml/JeecgOrderMainMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/demo/test/mapper/xml/JeecgOrderTicketMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/message/mapper/xml/SysMessageMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/message/mapper/xml/SysMessageTemplateMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ngalain/mapper/xml/NgAlainMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/mapper/xml/OnlCgreportHeadMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/mapper/xml/OnlCgreportItemMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/online/cgreport/mapper/xml/OnlCgreportParamMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/quartz/mapper/xml/QuartzJobMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/shiro/authc/MyRealm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/shiro/authc/MyRealm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/controller/SysAnnouncementController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/controller/SysAnnouncementController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/controller/SysUserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/controller/SysUserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/entity/SysAnnouncement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/entity/SysAnnouncement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/entity/SysUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/entity/SysUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/SysAnnouncementMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/SysAnnouncementMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/SysUserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/SysUserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/xml/SysAnnouncementMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/xml/SysDataLogMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/xml/SysDepartMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/xml/SysDictItemMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/xml/SysDictMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/xml/SysLogMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/xml/SysPermissionDataRuleMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/xml/SysPermissionMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/xml/SysUserDepartMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/mapper/xml/SysUserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/ISysAnnouncementService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/ISysAnnouncementService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/ISysUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/ISysUserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/impl/SysAnnouncementServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/impl/SysAnnouncementServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/impl/SysUserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/system/service/impl/SysUserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ws/ass/mapper/xml/AssInfoMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ws/ass/mapper/xml/AssObjMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ws/ass/mapper/xml/AssPlanMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ws/ass/mapper/xml/AssScoMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ws/define/mapper/xml/EntMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ws/define/mapper/xml/EntPropMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ws/define/mapper/xml/PropMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ws/patrol/service/impl/WebServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ws/patrol/service/impl/WebServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ws/problem/mapper/xml/ProbMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jeecg/modules/ws/sale/mapper/xml/SaleMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/DemoApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/DemoApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/JeecgApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/JeecgApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/common/constant/CommonConstant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/common/constant/CommonConstant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/common/util/PasswordUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/common/util/PasswordUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/config/ShiroConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/config/ShiroConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/quartz/job/SampleJob.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/quartz/job/SampleJob.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/quartz/job/SampleParamJob.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/quartz/job/SampleParamJob.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/shiro/authc/MyRealm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/shiro/authc/MyRealm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/system/controller/SysAnnouncementController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/system/controller/SysAnnouncementController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/system/controller/SysUserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/system/controller/SysUserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/system/entity/SysAnnouncement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/system/entity/SysAnnouncement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/system/entity/SysUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/system/entity/SysUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/system/mapper/SysAnnouncementMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/system/mapper/SysAnnouncementMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/system/mapper/SysUserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/system/mapper/SysUserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/system/mapper/xml/SysAnnouncementMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/system/mapper/xml/SysAnnouncementMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/system/mapper/xml/SysUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/system/mapper/xml/SysUserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/system/service/ISysAnnouncementService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/system/service/ISysAnnouncementService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/system/service/ISysUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/system/service/ISysUserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/system/service/impl/SysAnnouncementServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/system/service/impl/SysAnnouncementServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/system/service/impl/SysUserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/system/service/impl/SysUserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/ws/define/mapper/EntPropMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/ws/define/mapper/EntPropMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/ws/define/mapper/xml/EntPropMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/ws/define/mapper/xml/EntPropMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/ws/patrol/controller/DbController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/ws/patrol/controller/DbController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/ws/patrol/controller/IpController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/ws/patrol/controller/IpController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/ws/patrol/controller/WebController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/ws/patrol/controller/WebController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/ws/patrol/service/DbService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/ws/patrol/service/DbService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/ws/patrol/service/IpService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/ws/patrol/service/IpService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/ws/patrol/service/WebService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/ws/patrol/service/WebService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/ws/patrol/service/impl/DbServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/ws/patrol/service/impl/DbServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/ws/patrol/service/impl/IpServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/ws/patrol/service/impl/IpServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/ws/patrol/service/impl/WebServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/ws/patrol/service/impl/WebServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/ws/problem/entity/Apprecord.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/ws/problem/entity/Apprecord.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/ws/sale/controller/SaleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jeecg-boot-1.1.0/WEB-INF/classes/org/jeecg/modules/ws/sale/controller/SaleController.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -803,7 +646,7 @@
       <workItem from="1562665338327" duration="1930000" />
       <workItem from="1562734965519" duration="13547000" />
       <workItem from="1563156256314" duration="30714000" />
-      <workItem from="1563363203689" duration="7702000" />
+      <workItem from="1563363203689" duration="8363000" />
     </task>
     <task id="LOCAL-00001" summary="5月">
       <created>1557641534597</created>
@@ -833,11 +676,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560737126971</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="7月19">
+      <created>1563526900740</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1563526900740</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="410884000" />
+    <option name="totallyTimeSpent" value="411545000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
